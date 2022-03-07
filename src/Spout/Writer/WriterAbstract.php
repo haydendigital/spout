@@ -82,6 +82,11 @@ abstract class WriterAbstract implements WriterInterface
      */
     abstract protected function closeWriter();
 
+	public function getOptionsManager()
+	{
+		return $this->optionsManager;
+	}
+
     /**
      * {@inheritdoc}
      */
